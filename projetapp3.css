@@ -1,0 +1,150 @@
+
+body
+
+{
+	margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px
+}
+
+
+header
+
+{
+	height: 180px;
+	width: 100%;
+	background-color: #64B5A2;
+	display: inline-block;
+}
+
+footer
+
+{
+	height: 120px;
+	width: 100%;
+    background-color: #64B5A2;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: -6px;
+    position: fixed;
+    bottom: 0px;
+}
+
+table p
+
+{
+	font-size: 2em;
+	color:  #FED332;
+}
+
+img
+{
+	box-shadow: 0px 0px 10px 8px  #E9E9E9;
+}
+
+.Titre
+
+{
+	font-size: 5em;
+	text-align: center;
+	margin-top: auto;
+	padding-top: 47px;
+	color:  #FED332;
+
+}
+
+.section5
+
+{
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    height: 90px;
+	width: 500px;
+	background-color: #64B5A2;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.prochainement
+
+{
+    font-size: 3em;
+	text-align: center;
+	color:  #FED332;
+	padding-top: 20px;
+	padding-bottom: 120px;
+}
+
+.mention
+
+{
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+.contact
+
+{
+	padding-top: 10px;
+	margin-left: 840px;
+}
+
+.menu1
+
+{
+	width: 37%;
+	margin-left: 130px;
+	margin-top: 40px;
+}
+
+.menu2
+
+{
+	width: 37%;
+	margin-left: 90px;
+	margin-top: 40px;
+}
+
+.menu3
+
+{
+	width: 37%;
+	margin-left: 130px;
+	margin-top: 90px;
+}
+
+.menu4
+
+{
+	width: 37%;
+	margin-left: 90px;
+	margin-top: 90px;
+}
+
+.menud1
+
+{
+	text-align: center;
+	margin-left: 70px;
+}
+
+.menurestaurant
+
+{
+	font-size: 3em;
+	text-align: center;
+	color: black;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
