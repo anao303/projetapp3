@@ -3,6 +3,8 @@ body
 
 {
 	margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px
+	height: 100%;
+	width: 100%;
 }
 
 
@@ -28,6 +30,12 @@ footer
     bottom: 0px;
 }
 
+table
+
+{
+	width: 100%;
+}
+
 table p
 
 {
@@ -43,12 +51,53 @@ img
 .Titre
 
 {
+	display: block;
 	font-size: 5em;
 	text-align: center;
 	margin-top: auto;
 	padding-top: 47px;
 	color:  #FED332;
 
+}
+
+.rectangle
+
+{
+	width: 1000px;
+	height: 1500px;
+	background-color:  #FFDCDC;
+	margin: auto;
+	margin-bottom: 220px;
+}
+
+.rectangle2
+
+{
+	width: 1000px;
+	height: 1500px;
+	background-color:  #FFECFC;
+	margin: auto;
+	margin-bottom: 220px;
+}
+
+.rectangle3
+
+{
+	width: 1000px;
+	height: 1500px;
+	background-color:  #EFEFEF;
+	margin: auto;
+	margin-bottom: 220px;
+}
+
+.rectangle4
+
+{
+	width: 1000px;
+	height: 1500px;
+	background-color:  #FFFFFF;
+	margin: auto;
+	margin-bottom: 220px;
 }
 
 .section5
@@ -82,11 +131,20 @@ img
 	margin-left: 30px;
 }
 
+.mention a
+
+{
+	font-size: 1em;
+	color:  #FED332;
+	text-decoration: none;
+}
+
 .contact
 
 {
 	padding-top: 10px;
-	margin-left: 840px;
+	text-align: right;
+	padding-right: 30px;
 }
 
 .menu1
@@ -137,7 +195,114 @@ img
 	margin-bottom: 15px;
 }
 
+.menurestaurant2
 
+{
+	font-size: 3em;
+	text-align: center;
+	color: black;
+	margin-top: 40px;
+}
+
+.bordure1, .bordure2
+
+{
+    border-bottom: 7px  solid  #352A19;
+}
+
+.bordure1
+
+{
+	margin-left: 80px;
+	margin-right: -40px;
+}
+
+.bordure2
+
+{
+	margin-right: 40px;
+}
+
+.entree
+
+{
+	margin-top: 70px;
+	position: center;
+}
+
+.Tableau, .EPD
+
+{
+	position: center;
+	width: 30%;
+	display: inline-block;
+	font-size: 2em;
+	text-align: center;
+}
+
+.EPD
+
+{
+	margin-left: 50px; 
+}
+
+.Premier
+
+{
+	display: inline-block;
+	font-size: 1.3em;
+	margin-top: 40px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.Premier2
+
+{
+	display: inline-block;
+	width: 70%;
+	font-size: 1.3em;
+	margin-top: 40px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.prix
+
+{
+	display: inline-block;
+	margin-left: 250px;
+}
+
+
+.rectangle i
+
+{
+	color: #FF7F50;
+	margin-left: 440px;
+	margin-top: 90px;
+}
+
+
+.dernier i
+
+{
+	color: #FF7F50;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+
+.dernier2
+
+{
+	margin-top: 60px;
+}
+
+.dernier p
+
+{
+	font-size: 2.3em;
+}
 
 
 
