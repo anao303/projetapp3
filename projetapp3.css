@@ -276,6 +276,25 @@ div .bordure3 .bordure4
 	margin-left: 50px; 
 }
 
+.EPD:after 
+
+{
+    content: '';
+    display: block;
+    bottom: 2px;
+    width: 0%;
+    left: 0px;
+    height: 6px;
+    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: #FED332;
+}
+
+
+.EPD:hover:after {
+        width: 100%;
+    }
+
+
 .Premier
 
 {
