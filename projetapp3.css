@@ -2,7 +2,7 @@
 body
 
 {
-	margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px
+	margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;
 	height: 100%;
 	width: 100%;
 }
@@ -415,13 +415,11 @@ div .bordure3 .bordure4
 
 {
 	margin-top: 70px;
-	position: center;
 }
 
 .Tableau, .EPD
 
 {
-	position: center;
 	width: 30%;
 	display: inline-block;
 	font-size: 2em;
