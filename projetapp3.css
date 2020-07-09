@@ -47,8 +47,9 @@ table p
 
 {
 	box-shadow: 0px 0px 10px 8px  #E9E9E9;
-	width: 496px;
 	height: 702px;
+	width: 70%;
+	
 }
 
 a
@@ -61,19 +62,15 @@ a
 
 {
 	color: #FF7F50;
-	margin-left: 210px;
+	margin-left: 21px;
 	margin-top: 200px;
 }
 
 .rest1
 
 {
-	width: 37%;
-	margin-left: 130px;
-	margin-top: 85px;
 	background-color:  #FFDCDC;
 	display: inline-block;
-    position: absolute;
 }
 
 .trest1, .tmenu1
@@ -87,12 +84,8 @@ a
 .rest2
 
 {
-	width: 37%;
-	margin-left: 730px;
-	margin-top: 85px;
 	background-color:  #FFECFC;
 	display: inline-block;
-    position: absolute;
 }
 
 .trest2
@@ -100,8 +93,10 @@ a
 {
 	font-size: 2.5em;
 	text-align: center;
-	color:  #B642DE;
 	margin-top: 270px;
+	background: -webkit-linear-gradient(300deg, #CF8A00, #5E3DFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }	
 
 
@@ -116,9 +111,6 @@ a
 .rest3
 
 {
-	width: 37%;
-	margin-left: 130px;
-	margin-top: 870px;
 	background-color:  #EFEFEF;
 	display: inline-block;
 }
@@ -128,8 +120,10 @@ a
 {
 	font-size: 2.5em;
 	text-align: center;
-	color:  #232BDC;
 	margin-top: 270px;
+	background: -webkit-linear-gradient(400deg, #1600FF, #6F75FF, #2AACFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .tmenu3
@@ -137,18 +131,14 @@ a
 {
 	font-size: 3em;
 	text-align: center;
-	color:   #6085E1;
+	color:   #6F75FF;
 }
 
 .rest4
 
 {
-	width: 37%;
-	margin-left: 100px;
-	margin-top: 870px;
 	background-color:  #FFFFFF;
 	display: inline-block;
-	position: absolute;
 }
 
 .trest4
@@ -156,8 +146,10 @@ a
 {
 	font-size: 2.5em;
 	text-align: center;
-	color:   #52DC44;
 	margin-top: 270px;
+	background: -webkit-linear-gradient(400deg, #096600, #A5FF51);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .tmenu4
@@ -235,6 +227,8 @@ div .bordure3 .bordure4
 	margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+    margin-bottom: 200px;
+    text-align: center;
 }
 
 .prochainement
@@ -243,18 +237,17 @@ div .bordure3 .bordure4
     font-size: 3em;
 	text-align: center;
 	color:  #FED332;
-	padding-top: 20px;
-	padding-bottom: 120px;
-	margin-right: 50px;
+	display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
 }
 
 .loading
 
 { 
-	padding-left: 820px;
     width: 20px;
-    padding-top: 80px;
-    position: absolute;
+    display: inline-block;
     font-size: 3em;
     color: #FED332;
 }
@@ -262,20 +255,13 @@ div .bordure3 .bordure4
 .loading:after {
   overflow: hidden;
   display: inline-block;
-  vertical-align: bottom;
-  -webkit-animation: ellipsis steps(2,end) 900ms infinite;      
-  animation: ellipsis steps(2,end) 900ms infinite;
-  content: "..."; /* ascii code for the ellipsis character */
+  vertical-align: bottom;     
+  animation: ellipsis steps(6,end) 2s infinite;
+  content: "...";
   width: 0px;
 }
 
 @keyframes ellipsis {
-  to {
-    width: 80px;    
-  }
-}
-
-@-webkit-keyframes ellipsis {
   to {
     width: 80px;    
   }
@@ -388,9 +374,38 @@ div .bordure3 .bordure4
 	width: 100%;
 	font-size: 3em;
 	text-align: center;
-	color: black;
 	margin-top: 140px;
+	background: -webkit-linear-gradient(300deg, #CF8A00, #5E3DFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
+
+.menurestaurant3
+
+{
+	display: inline-block;
+	width: 100%;
+	font-size: 3em;
+	text-align: center;
+	margin-top: 140px;
+	background: -webkit-linear-gradient(400deg, #1600FF, #6F75FF, #2AACFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.menurestaurant4
+
+{
+	display: inline-block;
+	width: 100%;
+	font-size: 5.5em;
+	text-align: center;
+	margin-top: 140px;
+    background: -webkit-linear-gradient(400deg, #096600, #A5FF51);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 
 .bordure1, .bordure2, .bordure3, .bordure4
 
@@ -415,6 +430,27 @@ div .bordure3 .bordure4
 
 {
 	margin-top: 70px;
+}
+
+.entree21
+
+{
+	margin-top: 70px;
+	color: #CF8A00;
+}
+
+.entree22
+
+{
+	margin-top: 70px;
+	color: #C986DC;
+}
+
+.entree23
+
+{
+	margin-top: 70px;
+	color: #5E3DFF;
 }
 
 .Tableau, .EPD
@@ -472,6 +508,7 @@ div .bordure3 .bordure4
 	margin-top: 40px;
     margin-left: 80px;
     text-align: left;
+    color: #5E3DFF;
 }
 
 .prix
@@ -531,10 +568,29 @@ div .bordure3 .bordure4
 }
 
 
+.row {
+	width: 100%;
+}
 
+.cell {
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 75px 0px;
+}
 
+@media all and (max-width: 1024px) {
+	.cell {
+		width: 100%;
+	}
+}
 
-
+.rest1:hover p, .rest2:hover p, .rest3:hover p, .rest4:hover p,
+.rest1:hover i, .rest2:hover i, .rest3:hover i, .rest4:hover i {
+	transform: scale(1.5);
+	transition-duration: 2s;
+}
 
 
 
