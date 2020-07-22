@@ -177,11 +177,23 @@ div .bordure3 .bordure4
 
 }
 
+div, .trest1, .tmenu1
+
+{
+	font-family: Comic Sans MS
+}
+
+.rectangle, div
+
+{
+	font-family: Comic Sans MS
+}
+
 .rectangle
 
 {
 	width: 1000px;
-	height: 1500px;
+	height: 1600px;
 	background-color:  #FFDCDC;
 	margin: auto;
 	margin-bottom: 220px;
@@ -191,7 +203,7 @@ div .bordure3 .bordure4
 
 {
 	width: 1000px;
-	height: 1310px;
+	height: 1410px;
 	background-color:  #FFECFC;
 	margin: auto;
 	margin-bottom: 220px;
@@ -201,7 +213,7 @@ div .bordure3 .bordure4
 
 {
 	width: 1000px;
-	height: 1270px;
+	height: 1370px;
 	background-color:  #EFEFEF;
 	margin: auto;
 	margin-bottom: 220px;
@@ -211,7 +223,7 @@ div .bordure3 .bordure4
 
 {
 	width: 1000px;
-	height: 1280px;
+	height: 1380px;
 	background-color:  #FFFFFF;
 	margin: auto;
 	margin-bottom: 220px;
@@ -478,7 +490,7 @@ div .bordure3 .bordure4
     left: 0px;
     height: 6px;
     transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
-    background: #FF7F50;
+    background: black;
 }
 
 
