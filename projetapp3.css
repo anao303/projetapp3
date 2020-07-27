@@ -234,7 +234,7 @@ div, .trest1, .tmenu1
 {
     border-radius:15px;
     height: 90px;
-	width: 550px;
+	width: 40%;
 	background-color: #64B5A2;
 	margin-left: auto;
     margin-right: auto;
@@ -246,7 +246,7 @@ div, .trest1, .tmenu1
 .prochainement
 
 {
-    font-size: 3em;
+    font-size: 2em;
 	text-align: center;
 	color:  #FED332;
 	display: inline-block;
@@ -292,6 +292,7 @@ div, .trest1, .tmenu1
 	text-align: left;
 	margin-left: 35px;
 }
+
 .mention a
 
 {
@@ -499,7 +500,7 @@ div, .trest1, .tmenu1
     }
 
 
-.Premier
+.Premier, .PremierL
 
 {
 	font-size: 1.3em;
@@ -610,7 +611,7 @@ header
 
 {
 	width: 90%;
-	height: 1800px;
+	height: 100%;
 }
 
 
@@ -619,7 +620,7 @@ header
 {
     border-radius:15px;
     height: 90px;
-	width: 390px;
+	width: 90%;
 	background-color: #64B5A2;
 	margin-left: auto;
     margin-right: auto;
@@ -628,11 +629,87 @@ header
     text-align: center;
 }
 
+.Tableau, .EPD
+
+{
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: 950;
+	text-align: center;
+}
+
+.Tableau
+
+{
+	width: 28%;
+}
+
+.EPD
+
+{
+	width: 40%;
+	margin-left: 0px;
+}
+
+.bordure1
+
+{
+	margin-left: 8px;
+	margin-right: 0px;
+	width: 100%;
+}
+
+.bordure2
+
+{
+	margin-right: 0px;
+	width: 100%;
+}
+
+.Premier
+
+{
+	font-size: 1em;
+}
+
+.PremierL
+
+{
+	font-size: 1.1em;
+}
+
+.mention a, .contact a
+
+{
+	font-size: 0.8em;
+}
+
+.rectangle i
+
+{
+	margin-left: 145px;
+}
+
+.dernier i
+
+{
+	color: #FF7F50;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+
+.Titre
+
+{
+	font-size: 4em;
+}
+
 
 	.cell {
 		width: 100%;
 	}
 }
+
 
 .rest1:hover p, .rest2:hover p, .rest3:hover p, .rest4:hover p,
 .rest1:hover i, .rest2:hover i, .rest3:hover i, .rest4:hover i {
